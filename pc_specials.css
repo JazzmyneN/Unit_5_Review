@@ -43,6 +43,11 @@ div.newRow {
    width: 100%;
    clear: both;
 }
+div.newRow::after {
+   clear: both;
+   content: "";
+   display: table;
+}
 /*div.newRow::after {
 Step 8 Using the technique from this tutorial, add another 
 style rule that uses the after pseudo-element to expand 
